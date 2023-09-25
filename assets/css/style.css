@@ -67,7 +67,7 @@ nav ul a{
     width: 20px;
 }
 
-.hero a {
+.tag-link a {
     display: inline-block;
     text-decoration: none;
     color: #666;
@@ -103,6 +103,10 @@ nav ul a{
     padding: 80px;
 }
 
+.link__box div:nth-of-type(1) {
+    padding-bottom: 50px;
+}
+
 .image_box div a:nth-child(1) {
     padding-right: 50px;
 }
@@ -121,13 +125,10 @@ nav ul a{
 
 
 .features img {
-    width: 756px;
-    padding-top: 100px;
+    width: 720px;
 }
 
-.image_box div:nth-child(1) {
-    padding-bottom: 50px;
-}
+
 
 
 .image_holder {
@@ -153,7 +154,9 @@ nav ul a{
     font-size: 12px;
     color: #666;
     padding: 10px;
+    padding-bottom: 100px;
 }
+
 
 .left article{
     text-align: center;
@@ -188,4 +191,24 @@ footer section a {
 footer article {
     text-align: center;
     padding-bottom: 40px;
+    font-family:  Roboto_R;
+}
+
+.social__icons__holder img:hover {
+    box-shadow: 0px 0px 7px  black;
+}
+.image_box img:hover {
+    box-shadow: 0px 0px 7px  black;
+}
+
+.features img:hover {
+    box-shadow: 0px 0px 7px  black;
+}
+
+nav ul li a:hover {
+    text-shadow: 0px 0px 1px  black ;
+}
+
+.tag-link a:hover {
+    text-shadow: 0px 0px 1px  black ;
 }
