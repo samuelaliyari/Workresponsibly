@@ -195,7 +195,7 @@ footer article {
 }
 
 .social__icons__holder img:hover {
-    box-shadow: 0px 0px 7px  black;
+    filter: drop-shadow(0px 0px 5px #000000);
 }
 .image_box img:hover {
     box-shadow: 0px 0px 7px  black;
@@ -212,3 +212,4 @@ nav ul li a:hover {
 .tag-link a:hover {
     text-shadow: 0px 0px 1px  black ;
 }
+
