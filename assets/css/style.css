@@ -1,0 +1,191 @@
+@font-face {
+    font-family: Roboto_R;
+    src: url(../font/Roboto-Regular.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #CCCCCC;
+}
+
+
+nav {
+    padding:20px 100px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 1px 15px 0px 0px;
+    display: inline-block;
+}
+
+nav ul a{
+    color: #659D89;
+    text-decoration: none;
+    font-family: Roboto_R;
+    font-size: 14px;
+
+}
+
+.hero {
+    padding-left: 100px;
+    border-bottom: 1px solid #66666650;
+}
+
+.hero h1 {
+    width: 600px;
+    padding: 100px 0;
+    font-size: 50px;
+
+}
+
+.hero h1::first-line {
+    color: #659D89;
+}
+
+.social__icons__holder {
+    display: block;
+    text-align: right;
+}
+
+.hero ul {
+    list-style-type: none;
+    padding-right: 100px;
+}
+
+.hero ul img {
+    width: 20px;
+}
+
+.hero a {
+    display: inline-block;
+    text-decoration: none;
+    color: #666;
+    font-size: 16px;
+    font-family: Roboto_R;
+    font-weight: 400;
+    padding: 80px 0;
+}
+
+.link__box {
+    padding: 50px 100px;
+    border-bottom: 1px solid #66666650;
+}
+
+.link__box h4 {
+    font-size: 20px;
+    font-family: Roboto_R;
+}
+
+.link__box p {
+    padding: 15px 0;
+    font-family: Roboto_R;
+    
+}
+
+
+.link__box img {
+    width: 320px;
+}
+
+.image_box {
+    text-align: center;
+    padding: 80px;
+}
+
+.image_box div a:nth-child(1) {
+    padding-right: 50px;
+}
+.image_box div a:nth-child(2) {
+    padding-right: 50px;
+}
+
+.features {
+    padding: 50px 100px;
+}
+
+.features h4 {
+    font-family: Roboto_R;
+    font-size: 20px;
+}
+
+
+.features img {
+    width: 756px;
+    padding-top: 100px;
+}
+
+.image_box div:nth-child(1) {
+    padding-bottom: 50px;
+}
+
+
+.image_holder {
+    padding: 80px;
+}
+
+.image_holder {
+    font-family:  Roboto_R;
+}
+
+
+.image_holder h5 {
+    font-size: 12px;
+    color: #666;
+    padding: 10px;
+}
+
+.image_holder h3 {
+    font-size: 20px;
+}
+
+.image_holder h6 {
+    font-size: 12px;
+    color: #666;
+    padding: 10px;
+}
+
+.left article{
+    text-align: center;
+    
+}
+
+.left div {
+    width: 720px;
+}
+
+.right {
+    padding-left: 324px;
+}
+
+.right article {
+    text-align: center;
+}
+
+footer section {
+    padding: 80px;
+    text-align: center;
+    border-top: 1px solid #66666650;
+
+}
+
+footer section a {
+    text-decoration: none;
+    color: #666666;
+    font-family:  Roboto_R;
+}
+
+footer article {
+    text-align: center;
+    padding-bottom: 40px;
+}
